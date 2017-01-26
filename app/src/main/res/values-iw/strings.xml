@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">בתי כנסת</string>
+    <string name="remember_choice">זכור בחירה</string>
+    <string name="main">ראשי</string>
+    <string name="messages">הודעות</string>
+    <string name="times">זמנים</string>
+    <string name="shabat_shalom">שבת שלום!</string>
+    <string name="save_changes">שמור שינויים</string>
+    <string name="titleChoir">מקהלה/דבר תורה:</string>
+    <string name="titleHazan">חזן:</string>
+    <string name="titleArvit">ערבית: </string>
+    <string name="titleHadlaka">הדלקת נרות:</string>
+    <string name="titleKabalatShabat">קבלת שבת:</string>
+    <string name="titleMincha">מנחה:</string>
+    <string name="titleShacharit">שחרית:</string>
+    <string name="titleExit">הבדלה:</string>
+    <string name="contactUs">צור קשר</string>
+    <string name="createAd">הזמנת פרסום</string>
+    <string name="createNewShul">יצירת בית כנסת חדש</string>
+    <string name="contactGabay">צור קשר עם גבאי/ מנהל</string>
+    <string name="yourMessege">הודעה</string>
+    <string name="changed">נשמר!</string>
+    <string name="moreTime">זמן נוסף: </string>
+    <string name="not_valid_string">^ אינו תו חוקי</string>
+    <string name="insertShulNAme">הכנס שם בית כנסת/ עיר/ מדינה</string>
+    <string name="titleMesagges">כותרת:</string>
+    <string name="ask_for_new_shul">שם בית כנסת: </string>
+    <string name="ask_new_shul_line2">כתובת:</string>
+    <string name="ask_new_shul_line3">2 מיילים של 2 גבאים (לאפשרות עריכת התוכן באפליקציה):</string>
+</resources>

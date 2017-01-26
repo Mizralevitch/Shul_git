@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.HandleView"
+    android:orientation="vertical">
+
+
+    <android.support.design.widget.CoordinatorLayout
+        android:id="@+id/layout"
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        >
+
+
+        <android.support.design.widget.AppBarLayout
+            android:id="@+id/appBarLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+            <android.support.v7.widget.Toolbar
+                android:id="@+id/toolbar"
+                android:layout_width="match_parent"
+                android:layout_height="?attr/actionBarSize"
+                android:background="@color/colorPrimary"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                app:popupTheme="@style/ThemeOverlay.AppCompat.Light" >
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                   android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/animator"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="8dp"
+                        android:src="@drawable/rsz_shul_icon_trans"/>
+
+                    <Button
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="@string/save_changes"
+                        android:id="@+id/btnSaveChanges"
+                        android:visibility="gone"
+                        android:textColor="@color/colorText"
+                        android:background="@drawable/list_background"
+                        android:layout_gravity="center_vertical"
+                        />
+
+                </LinearLayout>
+
+
+            </android.support.v7.widget.Toolbar>
+
+            <android.support.design.widget.TabLayout
+                android:id="@+id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorTabs"
+                app:tabTextColor="@color/colorPrimary"
+                app:tabIndicatorColor="@color/colorPrimary"
+                app:tabSelectedTextColor="#fd71590b"
+                app:tabMode="fixed"
+                app:tabGravity="fill"/>
+
+
+
+            <android.support.v4.view.ViewPager
+                android:id="@+id/viewpager"
+                android:padding="6dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/magen_david_whatsap"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                </android.support.v4.view.ViewPager>
+
+
+
+        </android.support.design.widget.AppBarLayout>
+
+
+    </android.support.design.widget.CoordinatorLayout>
+
+    <TextView
+        android:visibility="gone"
+        android:id="@+id/myAdd"
+        android:gravity="center"
+        android:textIsSelectable="true"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rectangle1"
+       />
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/googleAdView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/google_add_banner"
+        >
+    </com.google.android.gms.ads.AdView>
+</LinearLayout>

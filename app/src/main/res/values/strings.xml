@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Synagogues</string>
+    <string name="remember_choice">remember choice</string>
+    <string name="messages">Messages</string>
+    <string name="main">Main</string>
+    <string name="times">Times</string>
+    <string name="titleHazan">Cantor:</string>
+    <string name="titleChoir">Choir/Dvar Tora:</string>
+    <string name="shabat_shalom">Good Shabbos!</string>
+    <string name="save_changes">save changes</string>
+    <string name="titleHadlaka">Lightening:</string>
+    <string name="titleExit">Havdala:</string>
+    <string name="titleKabalatShabat">Kabalat Shabat:</string>
+    <string name="titleShacharit">Shacharit:</string>
+    <string name="titleMincha">Mincha:</string>
+    <string name="titleArvit">Arvit: </string>
+    <string name="contactUs">contact us</string>
+    <string name="createNewShul">Create  New Shul</string>
+    <string name="createAd">Order an Ad</string>
+    <string name="yourMessege">Message</string>
+    <string name="not_valid_string">^ is not a valid letter</string>
+    <string name="contactGabay">Contact the Gabaai/Manager</string>
+    <string name="moreTime">Additional time:</string>
+    <string name="google_add_banner" translatable="false">ca-app-pub-1670977584460082/7529473455</string>
+    <string name="changed">changed!</string>
+    <string name="insertShulNAme">Insert Shul Name / City/ State</string>
+    <string name="titleMesagges"> Title:</string>
+    <string name="ask_for_new_shul">Shul name:</string>
+    <string name="ask_new_shul_line2">Adress:</string>
+    <string name="ask_new_shul_line3">2 emails of 2 "gabays" (for editing option in the app):</string>
+</resources>

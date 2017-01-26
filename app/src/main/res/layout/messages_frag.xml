@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="6dp">
+
+    <LinearLayout
+        android:id="@+id/rlt1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMessegesTitle"
+        android:textSize="30sp"
+        android:maxLines="1"
+        android:lineSpacingExtra="8sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:hint="@string/titleMesagges"
+        android:textColorHint="@color/color_hint"
+        android:textColor="@color/colorText"
+        android:background="@android:color/transparent"
+        android:layout_margin="16dp"/>
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtMesseges"
+        android:textSize="16sp"
+        android:lineSpacingExtra="3sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:background="@android:color/transparent"
+        android:hint="@string/messages"
+        android:textColorHint="@color/color_hint"
+        android:textColor="@color/colorText"
+        android:layout_margin="6dp"
+        android:ellipsize="none"
+        android:scrollbars="vertical"/>
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    >
+
+    <Button
+        android:background="@drawable/costum_button"
+        android:textColor="@color/colorToolbarText"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnContactGabay"
+
+        android:text="@string/contactGabay"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="2dp"/>
+    <Button
+        android:background="@drawable/costum_button"
+        android:textColor="@color/colorToolbarText"
+        android:layout_width="240dp"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnOrderAnAdd"
+        android:text="@string/createAd"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="2dp"/>
+
+
+</LinearLayout>
+
+</LinearLayout>

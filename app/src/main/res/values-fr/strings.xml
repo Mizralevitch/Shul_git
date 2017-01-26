@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Synagogues</string>
+    <string name="ask_for_new_shul">Nom de la synagogue:</string>
+    <string name="ask_new_shul_line2">Adresse:</string>
+    <string name="ask_new_shul_line3">Mail de 2 responsables (pour permettre la modification de données):</string>
+    <string name="changed">Sauvegardé!</string>
+    <string name="contactGabay">Contacter le responsable</string>
+    <string name="contactUs">Contactez-nous</string>
+    <string name="createAd">Punlier une publicité</string>
+    <string name="createNewShul">Créer une nouvelle synagogue</string>
+    <string name="insertShulNAme">Insérer le nom de la synagogue/Ville/Pays</string>
+    <string name="main">Principal</string>
+    <string name="messages">Messages</string>
+    <string name="moreTime">Temps supplémentaire</string>
+    <string name="not_valid_string">^ Le caractere n\'est pas valide</string>
+    <string name="remember_choice">Se souvenir de mon choix</string>
+    <string name="save_changes">Sauvegarder les modifications</string>
+    <string name="shabat_shalom">Chabbat Chalom!</string>
+    <string name="times">Temps</string>
+    <string name="titleArvit">Arvit</string>
+    <string name="titleChoir">Chorale/Dvar thora:</string>
+    <string name="titleExit">Havdala:</string>
+    <string name="titleHadlaka">Allumage des bougies:</string>
+    <string name="titleHazan">Chantre:</string>
+    <string name="titleKabalatShabat">Kabbalat Chabbat:</string>
+    <string name="titleMesagges">Titre:</string>
+    <string name="titleMincha">Minha:</string>
+    <string name="titleShacharit">Shaharit:</string>
+    <string name="yourMessege">Message</string>
+</resources>

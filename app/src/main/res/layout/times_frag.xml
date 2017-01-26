@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentTop="true"
+        android:id="@+id/lnr2">
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtLightening"
+            android:paddingTop="16dp"
+            android:singleLine="true"
+            android:hint="@string/titleHadlaka"
+            android:layout_gravity="center"
+            android:textColorHint="@color/color_hint"
+            android:textColor="@color/colorText"
+            android:background="@android:color/transparent"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtHavdala"
+            android:hint="@string/titleExit"
+            android:singleLine="true"
+            android:paddingTop="16dp"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorText"
+            android:textColorHint="@color/color_hint"
+            android:background="@android:color/transparent"
+            android:textSize="25sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+   <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:id="@+id/myScroll"
+        android:scrollbars="vertical"
+        android:layout_below="@id/lnr2">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <EditText
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTimeLine3"
+                android:paddingTop="30dp"
+                android:singleLine="true"
+                android:hint="@string/titleKabalatShabat"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/color_hint"
+                android:background="@android:color/transparent"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTimeLine4"
+                android:paddingTop="20dp"
+                android:singleLine="true"
+                android:layout_gravity="center_horizontal"
+                android:hint="@string/titleShacharit"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/color_hint"
+                android:background="@android:color/transparent"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTimeLine5"
+                android:paddingTop="20dp"
+                android:singleLine="true"
+                android:layout_gravity="center_horizontal"
+                android:hint="@string/titleMincha"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/color_hint"
+                android:background="@android:color/transparent"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTimeLine6"
+                android:paddingTop="20dp"
+                android:singleLine="true"
+                android:layout_gravity="center_horizontal"
+                android:hint="@string/titleArvit"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/color_hint"
+                android:background="@android:color/transparent"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTimeLine7"
+                android:hint="@string/moreTime"
+                android:paddingTop="20dp"
+                android:singleLine="true"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/color_hint"
+                android:background="@android:color/transparent"
+                android:textSize="25sp"
+                android:textStyle="bold" />
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtTimeLine8"
+                android:hint="@string/moreTime"
+                android:paddingTop="20dp"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/colorText"
+                android:textColorHint="@color/color_hint"
+                android:background="@android:color/transparent"
+                android:textSize="25sp"
+                android:singleLine="true"
+                android:textStyle="bold"
+                android:layout_marginBottom="16dp"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+    </RelativeLayout>
+

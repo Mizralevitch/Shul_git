@@ -21,7 +21,7 @@
     <string name="not_valid_string">^ is not a valid letter</string>
     <string name="contactGabay">Contact the Gabaai/Manager</string>
     <string name="moreTime">Additional time:</string>
-    <string name="google_add_banner" translatable="false">ca-app-pub-1670977584460082/7529473455</string>
+    <string name="google_add_banner" translatable="false">ca-app-pub-something</string>
     <string name="changed">changed!</string>
     <string name="insertShulNAme">Insert Shul Name / City/ State</string>
     <string name="titleMesagges"> Title:</string>
